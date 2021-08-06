@@ -1,8 +1,10 @@
 import {Builder, By, Key, until} from "selenium-webdriver";
 import ChromeDriver from 'chromedriver'
 
-describe("", () =>) {
-    it("", () =>) {
+describe("", () =>)
+{
+    it("", () =>)
+    {
         let driver = await new Builder().forBrowser('chrome').build();
 
         try {
@@ -12,6 +14,9 @@ describe("", () =>) {
         } finally {
             await driver.quit();
         }
-    });
-});
+    }
+)
+;
+})
+;
 
